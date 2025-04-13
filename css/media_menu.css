@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+    .sidemenu{
+        width: 80%;
+        margin-right: -110%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .navbar_logo img{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+/* FOOTER */
+@media (max-width: 500px) {
+    .footer{
+        bottom: 0;
+        background-color: #f4f4f4;
+        padding: 9% 4%;
+    }
+    .footer_frame{
+        flex-direction: column;
+    }
+    .icons{
+        text-align: center;
+        margin: 15px 0;
+        padding: 15px 0;
+        border-top: 1px solid silver;
+        border-bottom: 1px solid silver;
+    }
+    .icons i{
+        font-size: 28px;
+        margin-bottom: 7px;
+    }
+}

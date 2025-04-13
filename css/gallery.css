@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#scrollbtn{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border: 2px solid orange;
+    color: orange;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+    z-index: 40;
+    background-color: transparent;
+}
+
+
+/* Javascript animation */
+.hidden{
+    opacity: 0;
+    transition: 1s;
+}
+.image_hide2{
+    filter: blur(5px);
+    transform: translateX(-22%);
+    transition: 1s;
+  }
+/* animation */
+.delay{
+  transform: scale(0.9);
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+
+.container{}
+.frame{
+    height: inherit;
+}
+
+/* Main text */
+.main_text{
+    height: auto;
+}
+.main_text_frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    margin-top: 9%;
+}
+.main_text_content{
+    color: #fff;
+    background-image:  linear-gradient(45deg, #00000088, #00000088)
+    ,url('../pic/truck24.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 90%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+}
+.main_text_content p{
+    margin: 0 0 12% 0;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main_text_content h2{
+    font-size: 60px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid silver;
+}
+
+
+
+/* Gallery */
+/* General gallery divs */
+.gallery{
+    padding: 1% 3%;
+    margin: 2% 0 5%;
+}
+.gallery_frame{}
+.gallery_content{
+    display: flex;
+}
+
+/* Div for the images */
+.img{
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+
+}
+.img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Middle aligned photo */
+.middle{}
+.m_first{
+    height: 400px;
+}
+.m_sec{
+    display: flex;
+}
+.m_sec img{
+    width: 49.8%;
+    margin-right: 5px;
+}
+.m_thr{
+    height: 747px;
+    display: flex;
+}
+.in_m_thr{
+    height: 368px;
+}
+#bottom_space{ 
+    margin-bottom: 5px;
+}
+
+/* Side aligned photos */
+.sides{}
+.sides{
+    width: 100%;
+    height: auto;
+}
+.s_first img{
+    height: auto;
+}
+.s_sec img{
+    height: auto;
+}
+
+
+/* contact form */
+.contact_form{
+    padding: 4% 0;
+    background-color: #e8e8e8;
+}
+.contact_frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.contact_heading{
+    border-bottom: 1px solid black;
+    width: 180px;
+    text-align: center;
+    margin: 0 auto 3%;
+    padding: 0 0 1%;
+}
+.contact_heading h1{
+    font-size: 35px;
+}
+form{
+    box-shadow: 0 0 5px grey;
+    width: 60%;
+    padding: 1%;
+}
+.form_divs{
+    display: flex;
+}
+.inputs{
+    display: inline-block;
+    align-self: center;
+    width: 48%;
+    margin-bottom: 2%;
+}
+.inputs input{
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+}
+.inputs:first-child{
+    margin-right: 15px;
+}
+.message{
+    width: 78.5%;
+    margin-right: 15px;
+}
+.form_input{
+    display: inline-flex;
+}
+.form_input textarea{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+}
+.form_input button{
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    padding: 10px 3rem;
+    cursor: pointer;
+    background-color: #009dff;
+}
+
+

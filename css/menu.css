@@ -1,0 +1,127 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar_container{
+    background-color: #2b2e3a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 0 5px;
+}
+.navbar_logo{
+    text-align: center;
+}
+.navbar_logo img{
+    width: 90px;
+    height: 90px;
+}
+.navbar_logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar_frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 0 3%;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.in_menu{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.display{
+    margin-right: -110% ;
+}
+.in_menu i{
+    font-size: 25px;
+    margin-right: 5px;
+}
+.sidemenu{
+    position: relative;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    width: 230px;
+    margin-right: -110%;
+    height: 100%;
+    font-size: 18px;
+    padding: 2%;
+    background-color: #2b2e3a;
+    box-shadow: 0 0 7px black;
+}
+.cancel_btn{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff;
+    float: right;
+    border: 0;
+    cursor: pointer;
+}
+.anchors{
+    padding: 30px 5%;
+    border-bottom: 1px solid silver;
+}
+.anchors a:hover{
+    color: grey;
+}
+.anchors:first-child{
+    margin-top: 20px;
+    border: 2px solid lime;
+}
+.anchors a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer{
+    bottom: 0;
+    background-color: #f4f4f4;
+    padding: 3% 4%;
+}
+.footer_frame{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact p{
+    font-size: 17px;
+    line-height: 24px;
+}
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: grey;
+}
+.icons i{
+    font-size: 24px;
+    transition: .2s;
+}
+.icons a:hover{
+    color: orange;
+}
+.created{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.address p{
+    font-size: 17px;
+    line-height: 23px;
+}
