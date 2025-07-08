@@ -1,0 +1,665 @@
+@media (min-width: 2000px) {
+    /* Main text */
+    .main_text_frame{
+        margin-top: 6%;
+    }
+    .supplies{
+        margin: 2% auto;
+        width: 60%;
+    }
+    .supply_content{
+        width: 170%;
+        padding: 2% 0;
+    }
+    .supply{
+        width: 250px;
+        height: 230px;
+        margin: 0 40px 0 0;
+        padding: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    /* Contact us */
+    form{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1500px) {
+    /* Installation */
+    .install_items{
+        padding: 15px;
+        margin: 15px 10px;
+        height: 130px;
+        width: 250px;
+    }
+    
+}
+
+@media (max-width: 1300px) {
+    /* Our Market */
+    .market_container{
+        padding: 2% 0 4%; 
+    }
+    .market_frame{}
+    .market_heading{
+        width: 50%;
+        text-align: center;
+        margin: 0 auto 3%;
+        padding: 10px 0 1%;
+        border-bottom: 1px solid silver;
+    }
+    .market_heading h2{
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 1%;
+    }
+    .market_info{
+        margin: 0 5px 15px;
+    }
+
+    /* Installation */
+    .install_items{
+        padding: 15px;
+        margin: 15px 10px;
+        height: 110px;
+        width: 210px;
+    }
+
+}
+
+@media (max-width: 1030px) {
+    /* Installation */
+    .install_items{
+        padding: 15px;
+        margin: 15px 10px;
+        height: 100px;
+        width: 190px;
+    }
+}
+
+@media (max-width: 1100px) {
+    /* Main text */
+    .main_text_frame{
+        margin-top: 11%;
+    }
+    .main_items{
+        width: 100%;
+        margin-top: -50px;
+    }
+    .main_item{
+        width: 150px;
+    }
+
+    /* About */
+    .about_frame p{
+        width: 85%;
+        margin: 0 auto;
+        font-weight: 300;
+    } 
+
+
+    /* Our Market */
+    .market_content{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 860px) {
+    /* Main text */
+    .main_text_frame{
+        margin-top: 13%;
+    }
+    .main_text_content{
+        width: 95%;
+    }
+}
+
+@media (max-width: 830px) {
+    /* Main text */
+    .main_text_frame{
+        margin-top: 14%;
+    }
+    .main_text_content{
+        width: 95%;
+    }
+}
+
+@media (max-width: 800px) {
+    /* Main text */
+    .main_text_frame{
+        margin-top: 14%;
+    }
+    .main_text_content{
+        width: 95%;
+    }
+    .main_items{
+        width: 100%;
+        margin-top: -50px;
+    }
+    .main_item{
+        width: 130px;
+        font-size: 15px;
+    }
+
+    /* Contact form */
+    form{
+        width: 80%;
+    }
+
+    /* Our Market */
+    .market_container{
+        padding: 5% 0; 
+    }
+    .market_heading{
+        width: 55%;
+        text-align: center;
+        margin: 0 auto 4%;
+        padding: 10px 0 2%;
+        border-bottom: 1px solid silver;
+    }
+    .market_heading h2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 1%;
+    }
+    .market_info{
+        padding: 3% 5%;
+        margin: 0 5px 10px;
+    }
+
+    /* Our Values */
+    .values_frame p{
+        margin: 3% auto 1%;
+        width: 60%;
+    }
+    .value_icon i{
+        font-size: 30px;
+    }
+    .value_items{
+        height: 60px;
+        width: 120px;
+    }
+    .value_para p{
+        font-size: 20px;
+    }
+
+    /* Supplies/Products */
+    .supply_content{
+        width: 450%;
+    }
+
+    /* Installation */
+    .installation{
+        margin: 7% 0 5%;
+    }
+    .install_heading{
+        width: 480px;
+        padding: 10px 0;
+        margin: 0 auto 5%;
+    }
+    .install_heading h2{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .install_items{
+        padding: 12px;
+        margin: 15px 20px;
+        height: 110px;
+        width: 250px;
+        display: inline-flex;
+    }
+
+    /* About us */
+    .about_container{
+        padding: 8% 2%;
+    }
+}
+
+@media (max-width: 620px) {
+    /* Main text */
+    .main_text_frame{
+        margin-top: 16%;
+    }
+    .main_text_content h2{
+        font-size: 45px;
+        width: 300px;
+        padding: 10px 0
+    }
+    .main_items{
+        width: 100%;
+        margin-top: -80px;
+    }
+    .main_item{
+        width: 110px;
+        font-size: 15px;
+    }
+
+    /* Installation */
+    .install_heading{
+        width: 400px;
+        padding: 10px 0;
+        margin: 0 auto 5%;
+    }
+    .install_heading h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .install_items{
+        padding: 12px;
+        margin: 15px 0;
+        height: 110px;
+        width: 220px;
+        display: inline-flex;
+    }
+
+    /* About us */
+    .about_frame h1{
+        width: 200px;
+        padding: 10px 0;
+        font-size: 40px;
+        margin: 0 auto 2%;
+    }
+    .about_frame p{
+        width: 87%;
+        font-size: 17px;
+        margin: 0 auto;
+        font-weight: 300;
+        line-height: 20px;
+    } 
+
+}
+
+@media (max-width: 600px) {
+     /* Main text */
+     .main_item{
+        width: 90px;
+        font-size: 13px;
+    }
+    .main_text_content{
+        width: 95%;
+        height: 70vh;
+    }
+
+    /* Our Values */
+    .values_frame p{
+        margin: 3% auto 1%;
+        width: 70%;
+        font-size: 18px;
+    }
+    .values_content{
+        flex-direction: column;
+    }
+    .value_items{
+        padding: 2% 2% 4%;
+        height: 70px;
+        width: 200px;
+        margin: 0 15px 10px;
+    }
+
+    /* About us */
+    .about_frame h1{
+        width: 200px;
+        padding: 10px 0;
+        font-size: 40px;
+        margin: 0 auto 2%;
+    }
+    .about_frame p{
+        font-size: 16px;
+        margin: 0 auto;
+        font-weight: 300;
+        line-height: 20px;
+    }    
+
+    /* Supplies/Products */
+    .supply_content{
+        width: 600%;
+    }
+    .supplies h2{
+        font-size: 35px;
+    }
+
+    /* Installation */
+    .install_items{
+        height: 150px;
+        width: 60%;
+    }
+
+    /* Our Market */
+    .market_heading h2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 1%;
+    }
+    .market_heading p{
+        font-size: 15px;
+    }
+    .market_info{
+        padding: 2.5% 6%;
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 580px) {
+    .main_text_frame{
+        margin-top: 18%;
+    }
+}
+
+@media (max-width: 500px) {
+    /* Main text */
+    .main_text_content{
+        justify-content: center;
+        width: 100%;
+        height: 77vh;
+    }
+    .main_text_content h2{
+        margin: 0 2% 0 0;
+        width: 230px;
+        text-align: center;
+    }
+    .main_item{
+        width: 40%;
+        margin: 2px 5px;
+        font-size: 13px;
+        padding: 5% 3%;
+        text-align: center;
+    }
+    .main_items{
+        width: 100%;
+        margin-top: -70px;
+        text-align: center;
+    }
+
+    /* Supplies/Products */
+    .supplies{
+        margin: 8% auto;
+        width: 95%;
+    }
+
+    /* Installation */
+    .install_items{
+        height: 150px;
+        width: 80%;
+    }
+
+    /* Our Market */
+    .market_heading{
+        width: 70%;
+        margin: 0 auto 6%;
+    }
+    .market_heading h2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 2%;
+    }
+    .market_heading p{
+        font-size: 15px;
+    }
+    .market_content{
+        display: block;
+    }
+    .market_info{
+        padding: 6% 5%;
+        width: 70%;
+        margin: 15px auto;
+    }
+
+    /* Contact us */
+    form{
+        box-shadow: 0 0 5px grey;
+        width: 80%;
+        padding: 1%;
+    }
+    .form_divs{
+       flex-direction: column;
+    }
+    .inputs{
+        display: inline-block;
+        align-self: center;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .inputs input{
+        height: 40px;
+        width: 100%;
+    }
+    .message{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .inputs:first-child{
+        margin-right: 0;
+    }
+    .form_input textarea{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        border: 0;
+        outline: 0;
+        font-size: 16px;
+    }
+    .form_input button{
+        border: 0;
+        outline: 0;
+        width: 100%;
+        font-size: 18px;
+        padding: 10px 3rem;
+        cursor: pointer;
+        background-color: #009dff;
+    }
+}
+
+@media (max-width: 430px) {
+
+    /* Scrol to top button */
+    #scrollbtn{
+        visibility: hidden;
+    }
+
+    /* Contact form */
+    .contact_form{
+        padding: 9% 0;
+    }
+    form{
+        width: 90%;
+    }
+    .contact_heading h1{
+        font-size: 30px;
+    }
+    .inputs input{
+        height: 50px;
+    }
+
+
+    /* About us */
+    .about_container{
+        padding: 15% 2%;
+    }
+    .about_frame h1{
+        width: 200px;
+        padding: 10px 0;
+        font-size: 40px;
+        color: #fff;
+        margin: 0 auto 5%;
+    }
+    .about_frame p{
+        width: 90%;
+        color: #fff;
+        font-size: 16px;
+        margin: 0 auto;
+        font-weight: 300;
+        line-height: 20px;
+    }  
+
+    /* Supplies/Products */
+    .supplies{
+        margin: 10% auto 7%;
+        width: 95%;
+    }
+    .supply_content{
+        width: 800%;
+    }
+    .supplies h2{
+        font-size: 35px;
+    }
+
+    /* Our Market */
+    .market_container{
+        padding: 4% 0 9%; 
+    }
+    .market_heading{
+        width: 80%;
+        margin: 4% auto 9%;
+    }
+    .market_heading p{
+        font-size: 15px;
+    }
+
+    /* Values */
+    .values_frame{
+        padding: 6% 0;
+    }
+
+    /* Installation */
+    .installation{
+        margin: 9% 0;
+    }
+    .install_heading{
+        width: 280px;
+        padding: 10px 0;
+        margin: 0 auto 5%;
+    }
+    .install_heading h2{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* Our Market */
+    .market_heading{
+        width: 80%;
+    }
+}
+
+@media (max-width: 350px) {
+   
+}
+
+@media (max-width: 320px) {
+    /* Main text */
+    .main_item{
+        width: 40%;
+        margin: 2px 5px;
+        padding: 5% 3%;
+    }
+
+    /* Supplies/Products */
+    .supplies{
+        margin: 20% auto;
+        width: 95%;
+    }
+    .supply_content{
+        width: 800%;
+    }
+
+    /* Installation */
+    .installation{
+        margin: 10% 0;
+    }
+    .install_heading{
+        width: 250px;
+        padding: 10px 0;
+        margin: 0 auto 5%;
+    }
+    /* Installation */
+    .install_items{
+        height: 120px;
+    }
+
+    /* Contact form */
+    .contact_form{
+        padding: 15% 0;
+    }
+    .inputs:first-child{
+        margin-right: 0;
+    }
+    .contact_heading{
+        width: 200px;
+        text-align: center;
+        margin: 0 auto 8%;
+        padding: 0 0 3%;
+    }
+
+    /* Our Market */
+    .market_container{
+        padding: 6% 0 8%; 
+    }
+    .market_heading{
+        width: 90%;
+        padding: 20px 1%;
+        margin: 0 auto 9%;
+    }
+    .market_heading h2{
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 1%;
+    }
+    .market_heading p{
+        font-size: 14px;
+    }
+    .market_info{
+        padding: 8% 5%;
+        margin: 15px auto;
+    }
+
+    /* About us */
+    .about_frame p{
+        font-weight: 200;
+    } 
+
+    /* Values */
+    .value_para2 p{
+        font-size: 16px;
+        width: 100%;
+        margin: 8% 0 3%;
+    }
+    
+}
+
+@media (max-width: 290px) {
+    /* Main text */
+    .main_text_content h2{
+        font-size: 40px;
+        width: 200px;
+        margin: 0 0 0 0;
+    }
+    .main_items{
+        margin-top: -80px;
+    }
+    .main_item{
+        padding: 7% 2%;
+        width: 85%;
+        margin: 3px auto;
+    }
+    .main_item p{
+        margin: 0 auto;
+    }
+
+    /* Contact form */
+    .inputs:first-child{
+        margin-right: 0;
+    }
+
+    /* Values */
+    .value_para2 p{
+        font-size: 15px;
+        width: 98%;
+    }
+    .value_items{
+        height: 80px;
+        padding: 6% 0 1%;
+    }    
+}
